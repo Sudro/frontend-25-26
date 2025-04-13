@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="dashboard">
+        <div class="header">
+            <div class="title-group">
+                <span class="material-icons">monitor_heart</span>
+                <h1>Дашборд</h1>
+            </div>
+            <button id="connectButton" class="modern-button">
+                <span class="material-icons">link</span>
+                Отключиться
+            </button>
+        </div>
+        <div class="charts">
+            <div class="chart-card">
+                <h2><span class="material-icons">thermostat</span> Температура</h2>
+                <canvas id="temperatureChart" width="600" height="400"></canvas>
+            </div>
+            <div class="chart-card">
+                <h2><span class="material-icons">water_drop</span> Влажность</h2>
+                <canvas id="humidityChart" width="600" height="400"></canvas>
+            </div>
+        </div>
+    </div>
+    <script src="dist/bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve --open"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.0"
+  },
+  "devDependencies": {
+    "@types/chart.js": "^2.9.37",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
